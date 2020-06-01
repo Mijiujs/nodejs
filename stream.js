@@ -22,12 +22,12 @@ let fs = require('fs')
 // fs.createReadStream('input.txt')
 //   .pipe(zlib.createGzip())
 //   .pipe(fs.createWriteStream('input.txt.gz'));
-//解压文件
+// 解压文件
 // fs.createReadStream('input.txt.gz')
 //   .pipe(zlib.createGunzip())
 //   .pipe(fs.createWriteStream('input.txt'));
 
-//操作文件
+// 操作文件
 // fs.readFile(path, function (err, data) { if (err) { } else { } }) // 异步读文件
 // fs.readFileSync(path) // 同步读文件
 // fs.writeFile(path,data[, options], callback) // options - 该参数是一个对象，包含 {encoding, mode, flag}。默认编码为 utf8, 模式为 0666 ， flag 为 'w'
