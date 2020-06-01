@@ -1,5 +1,7 @@
-const events = require('events')
-const eventEmitter = new events.eventEmitter() // 事件触发与事件监听器的封装
+// 引入 events 模块
+const events = require('events');
+// 创建 eventEmitter 对象
+const eventEmitter = new events.EventEmitter();
 
 // eventEmitter.addListener(event,listener)
 // eventEmitter.on(event,listener)
